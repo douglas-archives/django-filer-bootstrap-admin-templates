@@ -1,0 +1,157 @@
+
+/* focal point */
+#image_container { position: relative; } 
+#image_container img, #image_container svg { margin: 0px; position: absolute; top: 0; left: 0;}
+
+
+/* the directory listing */
+table thead th.thumbHeader {
+	width: 52px;
+}
+#fileUploadFakeLink {
+	position: relative;
+	
+}
+#fileInputUploaderContainer {
+	position: absolute;
+	top:0;
+	left: -8px;
+}
+#fileInputUploader {
+}
+.fileUploadQueueItem .fileUploadProgress .fileUploadProgressBar {
+	background-color: black;
+}
+.loadingThumb {
+	width: 32px;
+	height: 32px;
+	background-image: url(../img/loading_animation.gif);
+	background-repeat:no-repeat;
+	
+}
+a.small_folder_link {
+	display: block;
+	height: 36px;
+	background-repeat: no-repeat;
+	padding-left: 36px;
+	padding-right: 4px;
+	background-image: url(../icons/plainfolder_32x32.png);
+	line-height: 36px;
+	float: right;
+}
+.wrapper-search-and-tools{
+	margin-bottom: 15px;
+}
+.popup .wrapper-search-and-tools{
+	margin-top: 15px;
+}
+.wrapper-search-and-tools form{
+	margin: 0;
+}
+.wrapper-search-and-tools .object-tools{
+	margin: 0;
+}
+.object-tools li{
+	display: inline;
+}
+#changelist-search label{
+	display: inline;
+}
+#changelist #changelist-form{
+	top: 0 ;
+}
+#changelist-search .small.quiet{
+	font-size: 12px;
+	display: inline-block;
+}
+.limit-search-to-folder{
+	margin: 4px;
+	padding: 4px 8px;
+	vertical-align: middle;
+}
+.limit-search-to-folder input{
+	margin: 0 2px;
+}
+#toolbartable tbody td{
+	vertical-align: middle;
+}
+#toolbartable b a{
+	line-height: 14px;
+}
+#toolbartable b a,
+.clipboard .item-label{
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+#toolbartable .file-buttons .btn{
+	margin-bottom: 5px;
+}
+#toolbartable .file-buttons .btn-text{
+	display: none;
+}
+#toolbartable .checkbox-column,
+#toolbartable .action-checkbox-column{
+	width: 15px;
+	text-align: center;
+}
+#toolbartable .table{
+	border-bottom: 1px dashed #CCCCCC;
+}
+#toolbartable .paginator{
+	text-align: center;
+}
+#content-main .folder_header{
+	background: none;
+	font-size: 20px;
+}
+.folder_header a .icon-arrow-up{
+	margin-top: 8px;
+}
+#content-related{
+	padding: 0px;
+	margin-top: 15px;
+}
+.row-changelist{
+	border-top: 1px solid #CCCCCC;
+}
+#changelist-form .go{
+	border-radius: 0 3px 3px 0;
+}
+#changelist-form .actions {
+	padding: 10px;
+}
+#changelist-form .actions label{
+	line-height: 25px;
+}
+.change-form #content-related{
+	padding: 19px;
+}
+@media (max-width: 800px) {
+	#changelist-search .small.quiet{
+		display: block;
+		margin: 10px 0;
+		text-align: center;
+	}
+	#toolbartable b a{
+		/*width: 280px;*/
+	}
+	#main-container .container-object-tools,
+	#main-container .container-changelist-search{
+		float: none;
+		margin: 0;
+		text-align: center;
+		width: 100%;
+	}
+	.wrapper-search-and-tools .pull-left,
+	.wrapper-search-and-tools .pull-right{
+		float: none;
+	}
+	.wrapper-search-and-tools .object-tools{
+		text-align: center;
+		margin-top: 10px;
+	}
+}
